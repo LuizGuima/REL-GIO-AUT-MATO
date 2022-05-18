@@ -14,12 +14,24 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.main-container {
+.rel {
   width: 400px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.cron {
+  width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.disable{
+  display: none;
 }
 
 h1 {
@@ -44,3 +56,15 @@ input {
   cursor: pointer;
   border-radius: 5px;
 }
+
+button {
+  text-transform: uppercase;
+  padding: 8px 10px;
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  background: none;
+  margin: 15px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+

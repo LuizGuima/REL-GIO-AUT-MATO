@@ -1,8 +1,18 @@
 const relogio = document.querySelector('.clock-time');
 const cronometro = document.querySelector('.clock-cron');
 const btnIniciar = document.querySelector('input[value="Iniciar"]');
+const showcron = document.querySelector('.cron');
+const showrel = document.querySelector('.rel');
 
-console.log(relogio);
+function showcrono(){
+  showrel.classList.add('disable');
+  showcron.classList.remove('disable');
+}
+
+function showrelo(){
+  showrel.classList.remove('disable');
+  showcron.classList.add('disable');
+}
 
 function horaRelogio() {
   const tempoAgora = new Date();

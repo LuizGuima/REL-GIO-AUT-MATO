@@ -10,19 +10,20 @@
 </head>
 
 <body>
-  <div class="main-container">
+  <div class="rel">
     <h1>Relógio</h1>
     <h2 class="clock-time">00:00:00</h2>
     <input onclick="set()" type="button" value="Ajustar">
+    <button onclick="showcrono()" class="cronometro-bt">Cronômetro</button>
   </div>
-  <div class="main-container">
+  <div class="cron disable">
     <h1>Cronômetro</h1>
     <h2 class="clock-cron">00:00:00</h2>
     <div>
       <input onclick="init()" type="button" value="Iniciar">
       <input onclick="end()" type="button" value="Zerar">
     </div>
-
+    <button onclick="showrelo()" class="relógio-bt">Relógio</button>
   </div>
   <script src="app.js"></script>
 </body>
